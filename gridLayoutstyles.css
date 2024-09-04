@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    margin:0%;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow:column;
+    column-gap: 10px;
+  
+}
+
+
+
+.item2{
+    display: grid;
+    row-gap: 10px;
+   
+}
+
+.item3{
+    display: grid;
+    row-gap: 10px;
+   
+}
+
+.item4{
+    display: grid;
+    row-gap: 10px;
+    
+}
+
+.item5{
+   
+    display: grid;
+    row-gap: 10px;
+}
+.item6{
+  
+    display: grid;
+    row-gap: 10px;
+}
+ .item1,.item2 div,.item3 div,.item4 div ,.item5 div,.item6 div{
+    background-color:green;
+    border-radius: 5px;
+ }

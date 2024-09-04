@@ -1,0 +1,58 @@
+<!-- payment form
+ user information
+ name
+ gender
+ address
+ email
+ pincode
+ payment information
+ acrd type
+ card number
+ exp date
+ cvv
+ pay now button
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link  rel="stylesheet" href="payment_stylesheet.css">
+</head>
+<body>
+   <form id="main">
+     <h1>Payment Form</h1>
+     <h2>User information</h2>
+
+     <p>Name :<input type = "text" placeholder="Eg : Ram" required></p>
+     <fieldset style="box-sizing: inherit;">
+        <legend>
+            Gender
+        </legend>
+        <p>male <input type="radio" value="male" name="sex"></p>
+        <p>female <input type="radio" value="female" name="sex" ></p>
+       
+
+     </fieldset>
+    <p>Address :<textarea></textarea></p> 
+    <p>Email :<input type="email" name="Email" placeholder="Ram@gmail.com"></p>
+    <p>Pincode : <input type="number"  name="number" placeholder="55555" required></p>
+    <h2>Payment Information</h2>
+    <p>Card type :<select name="card" id="card">
+        <option>-- Select any card --</option>
+        <option>Visa</option>
+        <option>SBI</option>
+        <option>ICICI</option>
+    </select>
+    </p>
+    <p>Card Number : <input type="number" name="card number" required></p>
+    <p>Exp Date : <input type="date" required></p>
+    <p>CVV <input type="password" required></p>
+    <input type = "submit" value="Pay Now">
+
+   </form>
+    
+</body>
+</html>
